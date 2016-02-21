@@ -70,7 +70,9 @@ function travel(dir,callback){
 		});
 }
 
-var dir = "F:/Program Files/nodejs/js/files";
+//var dir = "F:/Program Files/nodejs/js/files";
+var dir = "../misc";
+
 travel(dir,function(pathname){
 	console.log("the final pathname is: ",pathname);
 });

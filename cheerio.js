@@ -1,6 +1,6 @@
 var cheerio = require('cheerio');
 var fs = require('fs');
-var html = fs.readFileSync("./qcapi/LG.xml");
+var html = fs.readFileSync("../qcapi/LG.xml");
 var $ = cheerio.load(html);
 
 var qingArr =$('Provider');
